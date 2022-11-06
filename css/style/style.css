@@ -1,0 +1,433 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.homebanner{
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+  opacity: 0.1 rgb(245, 236, 236);
+  position: relative;
+}
+
+
+
+.text-block {
+  position: absolute;
+  box-sizing: 10%;
+  bottom: 20%;
+  right: 40%;
+  background-color: rgb(230, 74, 74);
+  color: white;
+  padding-left: 20px;
+  font-size: 100%;
+  padding-right: 20px;
+}
+.left-h2{
+  font-size: 80px;
+}
+.Custom_Sof{
+ font-weight:lighter;
+ font-size: 29px;
+ color: #3095fb;
+ padding-top: 10%;
+ font-family: 'Dosis', sans-serif;
+}
+.Dev_Sol{
+  padding-top: 5px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.882);
+  font-weight: 700;
+  font-family:'Dosis', sans-serif;
+
+}
+.bannerbg{ 
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: rgb(0, 0, 0, 0.8);
+}
+.baby{
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bannerbg.png);
+  background-repeat: no-repeat;
+  position: relative;
+} 
+row{
+  width: 100%;
+}
+.media{
+  float: right;
+}
+.navbar{
+  font-size: 18px;
+  background-color: #ffff;
+  font-weight: 600;
+  
+}
+.navbar a{
+  color: #007bff;
+}
+.footer{
+  background-color: #181f28;
+  width: 100% ;
+} 
+.softwareSolutions{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3095fb;
+}
+.card{
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+  color: #000;
+  padding: 2% 0;
+}
+.card-box{
+  background-image: url(../img/bannerbg.png);   
+  height: 100%;
+  color:white;
+  text-align: center;
+  padding-top: 5%; 
+  background-size: cover;
+  position: relative;
+}
+cost{ 
+  color:#007bff;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.card a{
+  color: #000;
+}
+.card:hover{
+  background-color: #155a9f;
+  color: #ffffff;
+}
+.card a:hover{
+  background-color: #155a9f;
+  color: #ffffff;
+}
+.center-div{
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url(../anni/bannerbg.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.card-title{
+  color: #000;
+}
+.card-title:hover{
+  color: #fff;
+}
+h4{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'dosislight';
+}
+.blue{
+  color: #007bff;
+  font-size: 80px;
+}
+h5{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px;
+  letter-spacing: 1px;
+}
+
+.clients{
+  height: 100%;
+  width:100%;
+  top: 0%;
+  left: -4%;
+}
+.item{
+  height: 70px;
+  margin-top: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-flex;
+  width: 90%;
+  padding: 2px;
+}
+.sli{
+  width: 75%;
+  margin-left: 13%;
+}
+.Slider{
+  width:1100px;
+  height:130px;
+  background-color: #f2f2f2;
+  margin-left: 150px;
+}
+.interest{
+  background-color: #155a9f;
+  margin-left: 15%;
+  color: white;
+  width: 81%;
+  height: 200px;
+  text-align: center;
+  transform: translate(-10%, 26%);
+  
+}
+.cost-eff{
+  font-size: 39px;
+  text-transform: uppercase;
+  color:#3095fb;
+}
+.cost-eff-1{
+  font-family:'Dosis', sans-serif;
+  color: #fff;
+}
+.technologies{
+  background-color: #f9f9f9;
+  font-size: 38px;
+  font-family: 'Dosis', sans-serif;
+  color: #155a9f;
+  width: 100%;
+  height: 150px;
+  padding-top: 30px;
+  text-align: center;
+
+}
+.animation{
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(216, 232, 94); */
+
+}
+.step1{
+  background-image: url(../anni/agile.png);
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  animation-duration: 10s;
+  animation-name: step_one;
+  width: 60%;
+  height: 250px;
+  left: 8%;
+  top: 26%;
+}
+@keyframes step_one{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step2{
+  background-image: url(../anni/product_backlog.png);
+  position: absolute;
+  background-size: 55%;
+  animation-duration: 10s;
+  animation-name: step_two;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-left: 21%;
+  bottom: 11%;
+  width: 30%;
+}
+@keyframes step_two{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step3{
+  background-image: url(../anni/sprint_planning.png);
+  position: absolute;
+  background-size: 57%;
+  animation-name: step_four;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 110px;
+  left: 60%;
+  top: 69%;
+  width: 30%;
+}
+@keyframes step_three{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step4{
+  background-image: url(../anni/backlog_grooming.png);
+  position: absolute;
+  background-size: 35%;
+  animation-name: step_four;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 110px;
+  left: 69%;
+  top: 46%;
+  width: 30%
+}
+@keyframes step_four{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step5{
+  background-image: url(../anni/dailyscrum.png);
+  position: absolute;
+  background-size: 20%;
+  animation-name: step_five;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 100px;
+  left: 59%;
+  top: 33%;
+  width: 30%;
+}
+@keyframes step_five{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step6{
+  background-image: url(../anni/scrum.png);
+  position: absolute;
+  background-size: 25%;
+  animation-name: step_six;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 100px;
+  left: 56%;
+  width: 30%;
+  top: 17%;
+}
+@keyframes step_six{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step7{
+  background-image: url(../anni/sprint_review.png);
+  position: absolute;
+  background-size: 55%;
+  animation-name: step_seven;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 30%;
+  top: 14%;
+  left: 24%;
+  }
+
+@keyframes step_seven{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.step8{
+  background-image: url(../anni/retrospective.png);
+  position: absolute;
+  background-size: 85%;
+  animation-name: step_eight;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 30%;
+  top: 60%;
+  left: 4%;
+  }
+
+@keyframes step_eight{
+  from{ transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+a{
+  color: #fff;
+}
+.owl-prev{
+  left:-50px;
+}
+.owl-next{
+ right:-50px;
+}
+.owl-prev, .owl-next{
+  position: absolute;
+  top: 10px;
+}
+.owl-prev span, .owl-next span{
+font-size: 55px;
+color:rgba(0, 0, 0, 0.919);
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  background-color: transparent;
+}
+.UL_edi{
+ margin-left: -35px;
+ line-height: 33px;
+ margin-left: 10px;
+ font-size: 14px;
+}
+.borderBottom{
+   margin-left: -35px;
+   line-height: 33px;
+   margin-left: -35px;
+   font-size: 14px;
+}
+.Footer_Bottom{
+  height: 100px;
+  background-color: #181f28;
+  border-top: 1px groove #fff;
+}
+.Copyright{
+  padding-top: 20px;
+  font-size: 12px;
+}
+.Privacy_Policy{
+  text-align: right;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.Methodology{
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
